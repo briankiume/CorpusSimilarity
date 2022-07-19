@@ -24,7 +24,7 @@ id_pair_1, id_pair_2 = cosine_two(zipped_1, zipped_2)
 then simply continue with this for easier integration.
 
 ⚠️ I'm using *Cosine Distance* from Scipy not *Cosine Similarity* from Sci-kit, therefore a 
-**higher** cosine distance means the documents are **less similar**.
+***higher*** cosine distance means the documents are ***less similar***.
 
 ## Requirements
 > - Scipy
