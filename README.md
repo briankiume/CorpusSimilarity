@@ -7,12 +7,15 @@ document and returns the pair indexes with the lowest Cosine distance.
 
 It takes two zipped lists as arguments (where vectors of each corpus document are mapped to an index): 
 
-> ***Zipped list:*** Follows the format: *[(array([-0.00051286, -0.00030816, -0.0012232], dtype=float32), 0),
-> (array([0.01054019, 0.01054019, -0.00245288,], dtype=float32), 1)...]*
->
-> - ***Corpus Vectors:*** Follows the format: *[array([-0.00051286, -0.00030816, -0.0012232], dtype=float32),
->array([0.01054019, 0.01054019, -0.00245288,], dtype=float32)...]*
->
+```
+Zipped list:
+[(array([-0.00051286, -0.00030816, -0.0012232], dtype=float32), 0),
+(array([0.01054019, 0.01054019, -0.00245288,], dtype=float32), 1)...]
+
+Corpus vectors: 
+[array([-0.00051286, -0.00030816, -0.0012232], dtype=float32),
+array([0.01054019, 0.01054019, -0.00245288,], dtype=float32)...]
+```
 
 ## Usage
 The code below shows its usage, pretty simple once the arguments are in the right format.  
